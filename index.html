@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather</title>
+	
+	<link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+	
+</head>
+<body>
+<body id="body">
+    <div class='container' id="container">
+        <form role='form' id="countryWrapper">
+           <label>Выберите страну</label>
+           <select class="form-control" id="country"></select>
+        </form>
+        <form role='form' id="cityWrapper">
+            <label>Выберите город</label>
+            <select class="form-control" id="city"></select>
+        </form>
+     
+    </div>
+
+<table class="table">
+    <tr>
+        <th>Локация</th>
+        <td id="location"></td>
+    </tr>
+    <tr>
+        <th>Температура</th>
+        <td id="temp"></td>
+    </tr>
+    <tr>
+        <th>Скорость ветра</th>
+        <td id="wind"></td>
+    </tr>
+    <tr>
+        <th>Давление</th>
+        <td id="bar"></td>
+    </tr>
+    <tr>
+        <th>Влажность</th>
+        <td id="humidity"></td>
+    </tr>
+</table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</body>
+</html>
